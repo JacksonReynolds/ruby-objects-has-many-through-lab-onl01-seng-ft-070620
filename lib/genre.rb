@@ -1,7 +1,7 @@
 require 'artist.rb'
 require 'song.rb'
 
-class genre
+class Genre
 
   attr_accessor :name
 
