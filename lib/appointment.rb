@@ -1,7 +1,7 @@
 require 'doctor.rb'
 require 'patient.rb'
 
-class appointment
+class Appointment
 
   attr_accessor :date, :patient, :doctor
 
