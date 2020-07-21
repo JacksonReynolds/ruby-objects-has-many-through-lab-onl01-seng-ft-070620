@@ -1,5 +1,6 @@
 require 'song.rb'
 require 'genre.rb'
+require 'pry'
 
 class Artist
 
@@ -22,6 +23,7 @@ class Artist
 
   def songs
     Song.all.select {|song| song.artist = self}
+    binding.pry
   end #songs
 
   def genres
